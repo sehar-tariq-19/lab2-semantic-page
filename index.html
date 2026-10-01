@@ -1,0 +1,195 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sehar Tariq</title>
+</head>
+
+<body>
+
+    <a href="#main-content">Skip to main content</a>
+
+    <header>
+        <h1>Sehar Tariq</h1>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#timeline">Timeline</a>
+            <a href="#media">Media</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <article id="about">
+            <h2>About Me</h2>
+
+            <figure>
+                <img src="flower.jpg" alt="Beautiful flower" width="250">
+                <figcaption>Beautiful Flower</figcaption>
+            </figure>
+
+            <p>
+                My name is Sehar Tariq. I am a BS Computer Science
+                student at Qarshi University Lahore.
+            </p>
+
+            <p>
+                I am currently studying in the 5th semester.
+                I am interested in learning web development and
+                computer science.
+            </p>
+
+            <blockquote>
+                <p>"The best way to learn is by doing."</p>
+            </blockquote>
+        </article>
+
+
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>GitHub</li>
+            </ul>
+        </section>
+
+
+        <section id="timeline">
+            <h2>My Timeline</h2>
+
+            <ol>
+                <li>Started BS Computer Science</li>
+                <li>Completed Lab 1</li>
+                <li>Started Web Technologies Lab 2</li>
+            </ol>
+        </section>
+
+
+        <aside>
+            <h2>Fun Fact</h2>
+            <p>
+                I like learning new computer skills and making
+                small projects.
+            </p>
+        </aside>
+
+
+        <section id="media">
+            <h2>Flower Video</h2>
+
+            <video controls width="400">
+                <source src="flower.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <p>
+                This video shows a beautiful flower.
+            </p>
+        </section>
+
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form id="contact-form">
+
+                <fieldset>
+
+                    <legend>Send Me a Message</legend>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <br><br>
+
+                    <label for="topic">Topic:</label>
+                    <select id="topic" name="topic">
+                        <option value="general">General</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="bug">Report a Bug</option>
+                    </select>
+
+                    <br><br>
+
+                    <p>Preferred Reply:</p>
+
+                    <label>
+                        <input type="radio" name="reply" value="email">
+                        Email
+                    </label>
+
+                    <label>
+                        <input type="radio" name="reply" value="phone">
+                        Phone
+                    </label>
+
+                    <br><br>
+
+                    <label>
+                        <input type="checkbox" id="updates" name="updates">
+                        Subscribe to updates
+                    </label>
+
+                    <br><br>
+
+                    <label for="date">Callback Date:</label>
+                    <input type="date" id="date" name="date">
+
+                    <br><br>
+
+                    <label for="urgency">Urgency:</label>
+                    <input type="range" id="urgency" name="urgency"
+                           min="1" max="10">
+
+                    <br><br>
+
+                    <label for="message">Message:</label>
+                    <br>
+
+                    <textarea id="message" name="message"
+                              rows="4" required minlength="10"></textarea>
+
+                    <br><br>
+
+                    <button type="submit">Send</button>
+
+                </fieldset>
+
+            </form>
+
+            <br>
+
+            <button id="clear-btn" type="button">
+                Clear Saved Data
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 Sehar Tariq</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
